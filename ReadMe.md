@@ -17,16 +17,16 @@ This project is a Cricket Team and Player Management System built using Express.
 
 1. Clone the repository:
 
-   \`\`\`bash
-   git clone <repository-url>
-   \`\`\`
+   ```bash
+   git clone https://github.com/bhargav1sarvadhi/Sequelize_rawQuery_crud.git
+   ```
 
 2. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    cd Sequelize_RawQueries_crud
    npm install
-   \`\`\`
+   ```
 
 3. Configure the database:
 
@@ -36,9 +36,9 @@ This project is a Cricket Team and Player Management System built using Express.
 
 4. Start the application:
 
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ````
 
    The application will start on \`http://localhost:3000\`.
 
@@ -64,17 +64,17 @@ The project uses two tables in the Postgres database:
 
 | Column     | Type    | Description                   |
 |------------|---------|-------------------------------|
-| id         | UUID    | Team ID (primary key)         |
-| name       | VARCHAR | Team name                     |
-| coach_name | VARCHAR | Coach name                    |
+| id         | INTEGER    | Team ID (primary key)         |
+| name       | STRING | Team name                     |
+| coach_name | STRING | Coach name                    |
 
 #### \`players\` table
 
 | Column   | Type    | Description                  |
 |----------|---------|------------------------------|
-| id       | UUID    | Player ID (primary key)      |
-| name     | VARCHAR | Player name                  |
-| type     | VARCHAR | Player type (batsman, bowler, all-rounder) |
+| id       | INTEGER    | Player ID (primary key)      |
+| name     | STRING | Player name                  |
+| type     | STRING | Player type (batsman, bowler, all-rounder) |
 | age      | INTEGER | Player age                   |
 
 ### Contribution
