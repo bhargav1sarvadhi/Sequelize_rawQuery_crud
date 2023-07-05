@@ -1,0 +1,16 @@
+{
+  "name": "sequelize_rawqueries_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.1",
+    "sequelize": "^6.32.1"
+  }
+}
